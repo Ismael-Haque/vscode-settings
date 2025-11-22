@@ -1,39 +1,43 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.editorAssociations": {
-        "*.csv": "gc-excelviewer-csv-editor"
-    },
-    "cmake.pinnedCommands": [
-        "workbench.action.tasks.configureTaskRunner",
-        "workbench.action.tasks.runTask"
-    ],
-    "editor.overtypeCursorStyle": "line",
-    "editor.autoClosingOvertype": "always",
-    "emmet.includeLanguages": {
-        "django-html": "html"
-    },
-    "notebook.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    // "[html]": {
-    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-    // },
-    // "[css]": {
-    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-    // },
-    // "[javascript]": {
-    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-    // },
-    "files.associations": {
-        "*.html": "django-html"
-    },
-    "[django-html]": {
-        // "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.wordWrap": "on", // turns on line wrapping
-    "editor.wordWrapColumn": 88, // match Black’s default line length
-    "editor.wrappingIndent": "same",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode" // keeps wrapped lines aligned
+  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.editorAssociations": {
+    "*.csv": "gc-excelviewer-csv-editor"
+  },
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "editor.overtypeCursorStyle": "line",
+  "editor.autoClosingOvertype": "always",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "notebook.defaultFormatter": "ms-python.black-formatter",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[css]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "files.associations": {
+    "*.html": "django-html"
+  },
+  "[django-html]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on", // turns on line wrapping
+  "editor.wordWrapColumn": 88, // match Black’s default line length
+  "editor.wrappingIndent": "same",
+  "workbench.colorTheme": "Horizon Bold",
+  "editor.fontSize": 15,
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "\"FiraMono Nerd Font Mono\", \"Ubuntu Sans Mono\", Consolas, 'Courier New', monospace ",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode" // keeps wrapped lines aligned
 }
